@@ -2,7 +2,7 @@
 {
     let mdcButton = document.getElementById("mdcButton")
     mdcButton.addEventListener("click", function () {
-        window.open("https://realgscgaming.github.io/mdc", "_blank")
+        window.open("https://link.cheeserinc.com/mdc", "_blank")
     })
 }
 
@@ -27,7 +27,7 @@
         }
 
         else if (random == 1) {
-            grgText.innerHTML = "Click <a href=\"https://realgscgaming.github.io/rng\" target=\"_blank\">here</a> to play.";
+            grgText.innerHTML = "Click <a href=\"https://link.cheeserinc.com/rng\" target=\"_blank\">here</a> to play.";
         }
 
         else if (random == 2) {
@@ -78,7 +78,7 @@
     });
 
     myocstButton2.addEventListener("click", function () {
-        window.open("https://realgscgaming.github.io/mayocast/platforms", "_blank")
+        window.open("https://link.cheeserinc.com/mayocast?platforms", "_blank")
     });
 
     myocstButton3.addEventListener("click", function () {
@@ -106,7 +106,7 @@
             benPlayingSound = true;
 
             let random = Math.floor(Math.random() * 4);
-            let baseUrl = "https://realgscgaming.github.io/talking-ben/Sounds/";
+            let baseUrl = "https://ben.cheeserinc.com/Sounds/";
             let audio;
 
             if (random == 0) {
@@ -149,7 +149,7 @@
     });
 
     benButton2.addEventListener("click", function () {
-        window.open("https://realgscgaming.github.io/talking-ben", "_blank");
+        window.open("https://ben.cheeserinc.com/", "_blank");
     });
 }
 
@@ -158,7 +158,7 @@
     let ffnButton = document.getElementById("ffnButton");
 
     ffnButton.addEventListener("click", function () {
-        window.open("https://sites.google.com/view/fastfoodnews", "_blank");
+        window.open("https://ffn.cheeserinc.com", "_blank");
     });
 }
 
